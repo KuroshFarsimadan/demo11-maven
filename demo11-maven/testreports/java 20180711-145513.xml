@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="java" project="demo11-maven" tests="18" started="18" failures="0" errors="0" ignored="0">
+  <testsuite name="ir.kuroshfarsimadan.clock.InternetClockSourceTest" incomplete="true">
+    <testcase name="testRetrieveTime" classname="ir.kuroshfarsimadan.clock.InternetClockSourceTest" incomplete="true"/>
+  </testsuite>
+  <testsuite name="ir.kuroshfarsimadan.all.AllTests">
+    <testsuite name="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true">
+      <testcase name="testSumTheDefault" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+      <testcase name="testMultiplyNegatives" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+      <testcase name="testSumZeros" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+      <testcase name="testSumNegatives" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+      <testcase name="testMultiplyDefault" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+      <testcase name="testMultiplyZeros" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" incomplete="true"/>
+    </testsuite>
+    <testsuite name="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" incomplete="true">
+      <testcase name="testGetDate" classname="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" incomplete="true"/>
+      <testcase name="testGetTime" classname="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" incomplete="true"/>
+    </testsuite>
+    <testsuite name="ir.kuroshfarsimadan.clock.InternetClockSourceTest" time="0.047">
+      <testcase name="testRetrieveTime" classname="ir.kuroshfarsimadan.clock.InternetClockSourceTest" time="0.02"/>
+    </testsuite>
+  </testsuite>
+  <testsuite name="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.002">
+    <testcase name="testSumTheDefault" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyNegatives" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.0"/>
+    <testcase name="testSumZeros" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.0"/>
+    <testcase name="testSumNegatives" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.002"/>
+    <testcase name="testMultiplyDefault" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.0"/>
+    <testcase name="testMultiplyZeros" classname="ir.kuroshfarsimadan.calculator.CalculatorTest" time="0.001"/>
+  </testsuite>
+  <testsuite name="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" time="0.019">
+    <testcase name="testGetDate" classname="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" time="0.001"/>
+    <testcase name="testGetTime" classname="ir.kuroshfarsimadan.clock.FinnishDateTimeClockTest" time="0.0"/>
+  </testsuite>
+</testrun>
